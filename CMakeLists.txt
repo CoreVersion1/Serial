@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(serial)
 
-option(DISABLE_CATKIN ON "disables catkin")
+option(DISABLE_CATKIN "disables catkin" ON)
 
 # Find catkin
 if(NOT DISABLE_CATKIN)
